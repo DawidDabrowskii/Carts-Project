@@ -1,0 +1,23 @@
+.new-products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .new-products-title {
+    margin-top: var(--MARGIN-0-25);
+  }
+  .products-chart-btn {
+    padding: var(--PADDING-0-5);
+    margin-top: var(--MARGIN-0-5);
+    border-radius: var(--BORDER-RADIUS-5);
+    border: var(--BORDER-THEME);
+    background: var(--CHART-COLOR);
+  }
+}
+.new-products-list {
+  margin-top: var(--MARGIN-2);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--GAP-2);
+}

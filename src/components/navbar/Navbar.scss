@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  color: black;
+  border-bottom: var(--BORDER-THEME);
+
+  &-list {
+    list-style-type: none;
+    display: flex;
+    gap: var(--GAP-2);
+
+    &-link {
+      border: none;
+      color: var(--FONT-BLACK-COLOR);
+      font-size: var(--FS-MEDIUM);
+      margin: var(--MARGIN-0-5) var(--MARGIN-0-25);
+      opacity: var(--OPACITY-0-6);
+      transition: 0.3s;
+
+      &:hover {
+        opacity: var(--OPACITY-0-1);
+      }
+    }
+  }
+  .active {
+    transform: var(--SCALE-1-15);
+    opacity: var(--OPACITY-0-1);
+  }
+}

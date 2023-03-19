@@ -1,0 +1,25 @@
+.carts-title {
+  text-align: center;
+  margin: var(--MARGIN-1);
+}
+
+.carts-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--MARGIN-2);
+
+  li {
+    border: var(--BORDER-THEME);
+    border-radius: var(--BORDER-RADIUS-12);
+    padding: var(--PADDING-1);
+  }
+}
+
+.carts-container {
+  max-width: 80%;
+  margin: var(--MARGIN-1) auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

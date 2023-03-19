@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgb(247, 245, 246) 0%,
+    rgb(231, 228, 228) 100%
+  );
+}
+
+:root {
+  /* || FONTS */
+  --FS-VERY-SMALL: clamp(0.5rem, 1.5vh, 1.3rem);
+  --FS-SMALL: clamp(0.8rem, 1.8vh, 1.6rem);
+  --FS-SMALL-M: clamp(1rem, 2.7vh, 2.5rem);
+  --FS-MEDIUM: clamp(1.5rem, 3vh, 2.7rem);
+  --FS-BIG: clamp(2.1rem, 5.1vh, 4.2rem);
+  --FS-VBIG: clamp(3rem, 6.5vh, 4.5rem);
+
+  /* FONT WEIGHTS */
+  --FW-LIGHT: 300;
+  --FW-REGULAR: 400;
+  --FW-BOLD: 500;
+  --FW-V-BOLD: 600;
+
+  /* || COLORS */
+  --DELETE-COLOR: #b31b10;
+  --WARNING-COLOR: rgb(233, 15, 15);
+  --DETAILS-COLOR: rgb(66, 146, 66);
+  --MODAL-COLOR: rgb(114, 175, 114);
+  --CHART-COLOR: rgba(255, 235, 55, 0.808);
+  --FONT-BLACK-COLOR: #000;
+  --COLOR-GREY-LIGHT-1: #f9f5f3; // Light background
+  --COLOR-GREY-LIGHT-2: #f2efee; // Light lines
+  --COLOR-GREY-LIGHT-3: #d3c7c3; // Light text (placeholder)
+  --COLOR-GREY-DARK-1: #3f3938; // Normal text
+  --COLOR-GREY-DARK-2: #272524; // Lighter text
+
+  /* STANDARD PADDING */
+  --PADDING-0-25: 0.25em;
+  --PADDING-0-5: 0.5em;
+  --PADDING-0-75: 0.75em;
+  --PADDING-1: 1em;
+  --PADDING-2: 2em;
+
+  /* STANDARD MARGIN */
+  --MARGIN-0-25: 0.25em;
+  --MARGIN-0-5: 0.5em;
+  --MARGIN-0-75: 0.75em;
+  --MARGIN-1: 1em;
+  --MARGIN-1-5: 1.5em;
+  --MARGIN-2: 2em;
+  --MARGIN-3: 3em;
+  --MARGIN-5: 5em;
+  --MARGIN-8: 8em;
+  --MARGIN-10: 10em;
+  --MARGIN-12: 12em;
+
+  /* || NEGATIVE MARGIN */
+  --N-MARGIN-0-5: -0.5em;
+  --N-MARGIN-0-75: -0.75em;
+
+  /* BORDERS */
+  --BORDER-RADIUS-5: 5px;
+  --BORDER-RADIUS-12: 12px;
+  --BORDER-CIRCLE: 50%;
+  --BORDER-TRANSPARENT: 2px solid transparent;
+  --BORDER-THEME: 1px solid #333;
+
+  /* OPACITY */
+  --OPACITY-0-2: 0.2;
+  --OPACITY-0-4: 0.4;
+  --OPACITY-0-6: 0.6;
+  --OPACITY-1: 1;
+
+  /* GAP */
+  --GAP-1: 1rem;
+  --GAP-2: 2rem;
+
+  /* TRANSFORM PROP*/
+  --SCALE-1-15: scale(1.15);
+}

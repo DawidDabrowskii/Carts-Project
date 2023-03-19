@@ -1,0 +1,25 @@
+h2 {
+  font-size: var(--FS-BIG);
+  line-height: 1.1;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: black;
+  }
+  &:link {
+    color: black;
+  }
+  &:active {
+    color: black;
+  }
+}
+
+li {
+  list-style: none;
+}

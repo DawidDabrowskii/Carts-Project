@@ -1,0 +1,23 @@
+.single-product {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--MARGIN-1);
+  padding: var(--PADDING-1);
+  border: var(--BORDER-THEME);
+  border-radius: var(--BORDER-RADIUS-12);
+
+  .product-title {
+    margin: var(--MARGIN-0-5) 0;
+  }
+  .product-quantity {
+    margin: var(--MARGIN-0-5) 0;
+  }
+  .delete-btn {
+    color: var(--COLOR-GREY-LIGHT-1);
+    margin: var(--MARGIN-0-5);
+    background: var(--DELETE-COLOR);
+    padding: var(--PADDING-0-5);
+    border-radius: var(--BORDER-RADIUS-5);
+    border: var(--BORDER-THEME);
+  }
+}

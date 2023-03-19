@@ -1,0 +1,59 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--GAP-2);
+
+    .form-item {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+        margin-left: var(--MARGIN-0-5);
+      }
+    }
+    .product-modal {
+      position: absolute;
+      font-size: var(--FS-MEDIUM);
+      top: 0;
+      background: var(--MODAL-COLOR);
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--BORDER-RADIUS-5);
+    }
+    label {
+      font-weight: --FW-V-BOLD;
+    }
+    button {
+      background: var(--COLOR-GREY-LIGHT-1);
+      padding: var(--PADDING-0-5);
+      max-width: 50%;
+      margin: 0 auto;
+
+      &:hover {
+        background-color: var(--COLOR-GREY-DARK-2);
+        color: var(--COLOR-GREY-LIGHT-1);
+      }
+    }
+  }
+}
+
+.info {
+  font-size: var(--FS-SMALL-M);
+  font-weight: var(--FW-V-BOLD);
+  margin-bottom: var(--MARGIN-3);
+  color: var(--WARNING-COLOR);
+}
+
+.form-title {
+  margin-bottom: var(--MARGIN-1);
+  text-align: center;
+}
